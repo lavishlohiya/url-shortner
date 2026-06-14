@@ -120,6 +120,18 @@ npm start
 | click_count | INTEGER |
 | created_at | TIMESTAMP |
 
+## Deployment Note
+
+> **Note:** This API is deployed on Render's free tier. The first request after a period of inactivity may take **20–60 seconds** to respond due to Render's cold start behavior. If a request initially fails or takes a long time, wait a few seconds and try again.
+
+### Testing with Postman
+
+1. Use the deployed Render URL as the base URL.
+2. Send a request to any endpoint (for example, `/api/auth/register`).
+3. If the API has been inactive, wait for Render to wake up the service.
+4. Retry the request if necessary.
+5. Subsequent requests should respond normally until the service becomes inactive again.
+
 ## Future Improvements
 
 - Frontend Dashboard
