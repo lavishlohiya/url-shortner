@@ -126,7 +126,6 @@ npm start
 - Custom Short URLs
 - Rate Limiting
 - Docker Support
-- Deployment with Render & Neon
 
 ## License
 
