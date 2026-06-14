@@ -38,9 +38,9 @@ src/
 ├── controllers/
 ├── middlewares/
 ├── routes/
-└── config/
-└── services/
-└── validators/
+|── config/
+|── services/
+|── validators/
 ```
 
 
@@ -50,7 +50,7 @@ src/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/url-shortner.git
+git clone https://github.com/lavishlohiya/url-shortner.git
 cd url-shortner
 ```
 
